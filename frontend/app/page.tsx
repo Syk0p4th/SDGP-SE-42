@@ -1,4 +1,6 @@
+import Footer from "./footer";
 import NavBar from "./navBar";
+
 
 export default function Home() {
   return (
@@ -69,7 +71,7 @@ export default function Home() {
 
 {/*subscription plan*/}
 
-<section className="sub-section py-12">
+<section id="subscription-plan" className="sub-section py-12">
         <h2 className="text-black dark:text-black text-2xl font-bold ml-[16.5%] py-12 font-bold">
           SUBSCRIPTION PLANS
         </h2>
@@ -79,7 +81,7 @@ export default function Home() {
     <div className="sub-display-card sub-one relative w-[300px] h-[500px]  bg-[#E8F9FF] rounded-lg p-4 flex flex-col justify-between">
     
       <h3 className="text-black font-bold text-xl absolute top-0 left-0 p-4">
-        BASIC PLAN
+        Basic Plan
       </h3>
 
       <div className="mt-16 space-y-2 text-black font-bold">
@@ -124,6 +126,10 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+    <Footer /> 
     </div>
+
+
   );
 }
