@@ -20,7 +20,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8 w-full max-w-md mx-auto">
-          <Link href="/about" className="w-full sm:w-40 px-8 py-4 text-center text-base font-semibold text-indigo-500 bg-white rounded-lg hover:text-indigo-600 transition-colors duration-300">
+          <Link href="#about" className="w-full sm:w-40 px-8 py-4 text-center text-base font-semibold text-indigo-500 bg-white rounded-lg hover:text-indigo-600 transition-colors duration-300">
             About
           </Link>
           <Link href="#subscription-plan" className="w-full sm:w-40 px-8 py-4 text-center text-base font-semibold text-white bg-indigo-500 bg-opacity-60 rounded-lg hover:bg-indigo-600 transition-colors duration-300">
@@ -59,7 +59,7 @@ export default function Home() {
 
 
 {/*about wasXpress*/}
-    <section className="subscriptionPage py-12">
+  <section id="about" className="subscriptionPage py-12">
     <h2 className="text-black dark:text-black text-2xl font-bold text-center mt-[50px]">
         ABOUT WashXpress
     </h2>
