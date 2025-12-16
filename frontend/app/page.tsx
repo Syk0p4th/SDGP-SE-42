@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section className="service-display-section">
-        <h2 className="text-black dark:text-black text-2xl font-bold ml-[16.5%] py-12 font-bold">
+        <h2 className="text-black dark:text-black text-2xl font-bold ml-[16.5%] py-12">
           SERVICES
         </h2>
 
@@ -72,7 +72,7 @@ export default function Home() {
 {/*subscription plan*/}
 
 <section id="subscription-plan" className="sub-section py-12">
-        <h2 className="text-black dark:text-black text-2xl font-bold ml-[16.5%] py-12 font-bold">
+        <h2 className="text-black dark:text-black text-2xl font-bold ml-[16.5%] py-12">
           SUBSCRIPTION PLANS
         </h2>
 
